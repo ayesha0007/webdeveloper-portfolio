@@ -103,6 +103,9 @@ main{
     /* justify-content: space-around; */
     margin: 0px auto;
 }
+main section{
+    margin-top: 130px;
+}
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -112,4 +115,38 @@ main{
 }
 #what i do{
     padding: 30px 45px;
+    /* text-align: center; */
+    /* justify-content: space-between; */
+}
+/* skills related style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-left: 130px;
+    margin-right: 130px;
+    height: 377px; 
+    width: 267px; 
+    align-items: center;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-des{
+    color: var(--dark-03, #757575); 
+
+}
+/* resume section style */
+.resume-column-title{
+         color: var(--dark-02, #474747);
+         
+         font-family: Open Sans;
+         font-size: 30px;
+         
+         font-weight: 700;
+}
+.resume-column{
+    display: flex;
 }
